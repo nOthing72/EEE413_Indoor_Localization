@@ -31,8 +31,8 @@ kNN is a lazy learning method, in the above process does not require the use of 
   
 Changing the value in every variance.
 
-:![](figure/1.png)
+![](figure/1.png)
 
 The beat performance value: 
 
-:![](figure/2.png)
+![](figure/2.png)
