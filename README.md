@@ -26,8 +26,13 @@ Location fingerprinting can be regarded as a classification or regression proble
 For the online RSS vector ss, the distances (such as the Euclidean distance) of each RSS vector {s1, s2, ..., sMs1, s2, ..., sM} in the fingerprint database are respectively calculated, and the nearest kk locations Fingerprint (a fingerprint is an RSS vector corresponding to a location).
 There are two kings of kNN methods which are kNN regression and kNN classification. For kNN regression, the label is the coordinate x and the coordinate y, which can be numerically calculated and averaged using the position coordinates of these k fingerprints as the positioning result. For the kNN classification, the positioning area is divided into 1m × × 1m grids, each grid is treated as a category, replaced by grid labels, the number of votes on the grid grid vote k, select the number of votes to do more as a grid as Positioning results.
 kNN is a lazy learning method, in the above process does not require the use of training data for "learning", in the positioning of the training data can be directly search. The kNN algorithm in some toolkits builds a kd tree (a data structure) during training, which facilitates the search for online predictions.
-# **Results**
+
+# **Results** 
+  
 Changing the value in every variance.
-:![](figure/1.png)
+
+![](figure/1.png)
+
 The beat performance value: 
-:![](figure/2.png)
+
+![](figure/2.png)
